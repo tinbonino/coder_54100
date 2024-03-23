@@ -4,10 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // fragment
-  <>
-   
-<App />
-
-  </>,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
 )
