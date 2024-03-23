@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    height: 120px;
+    background-color:lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-item {
+    margin-right: 1rem;
+    position: relative;
+}
+
+.navbar a:hover {
+    color:chocolate;
+}
+
+.logo {
+    width: 150px;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ee7787; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%; /* Forma redondeada */
+    transform: translate(50%, -50%);
+  }
+
+  .carrito {
+    position: relative;
+  }
