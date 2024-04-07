@@ -1,10 +1,14 @@
 import React from 'react'
 
-function Boton({count,setCount}) {
+function Boton({count,setCount,nombre}) {
   return (
-    <button onClick={() => setCount(count + 5)}>
+  <>
+  <h2>{nombre}</h2>
+  <button onClick={() => setCount(count + 1)}>
     count is {count}
   </button>
+  </>
+
   )
 }
 

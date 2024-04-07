@@ -5,8 +5,9 @@ import './App.css'
 import Boton from './Boton'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0)  // Desestructuramos un array
 
+ 
   return (
     <>
       <div>
@@ -19,13 +20,11 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-       <Boton count={count} setCount={setCount}/>
+       <Boton count={count} setCount={setCount} nombre="Contador"/>
+       <Boton count={count} setCount={setCount} />
        <Boton count={count} />
        <Boton count={count} />
-       <Boton count={count} />
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+       
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
