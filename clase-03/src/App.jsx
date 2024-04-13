@@ -4,7 +4,6 @@ import Principal from './components/Principal'
 import Productos from './components/Productos'
 import Producto from './components/Producto'
 import EjemploUseRef from './components/EjemploUseRef'
-EjemploUseEffect
 import './App.css'
 import EjemploUseEffect from './components/EjemploUseEffect'
 import EjemploSimpleUseEffect from './components/EjemploSimpleUseEffect'
